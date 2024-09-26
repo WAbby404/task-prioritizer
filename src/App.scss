@@ -1,0 +1,18 @@
+$primary-color: #3498db;
+$font-stack: Cambria, sans-serif;
+
+.container {
+  padding: 20px;
+  background-color: $primary-color;
+
+  .title {
+    font-family: $font-stack;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .searchbar {
+    display: flex;
+    align-items: center;
+  }
+}

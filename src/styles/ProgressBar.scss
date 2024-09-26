@@ -1,0 +1,32 @@
+.progress-bar-container {
+  display: flex;
+  align-items: center;
+}
+
+.progress-bar-inner-container {
+  width: 100px;
+  position: relative;
+  border: 1px solid black;
+  height: 20px;
+
+  div {
+    position: absolute;
+    height: 20px;
+    width: 100px;
+    background-color: rgb(119, 108, 95);
+    border-radius: 360px;
+  }
+
+  span {
+    position: absolute;
+    height: 20px;
+    border-radius: 360px;
+
+    h3 {
+      color: white;
+      border: 1px solid red;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}
